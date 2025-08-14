@@ -42,7 +42,6 @@ Features
 --------
 
 Find faces in pictures
-^^^^^^^^^^^^^^^^^^^^^^
 
 https://github.com/user-attachments/assets/ead8ec44-760e-49be-b046-2e99da11111d
 
@@ -89,7 +88,6 @@ chin.
 |image5|
 
 Identify faces in pictures
-^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Recognize who appears in each photo.
 
@@ -119,7 +117,6 @@ Installation
 ------------
 
 Requirements
-^^^^^^^^^^^^
 
 -  Python 3.3+ or Python 2.7
 -  macOS or Linux (Windows not officially supported, but might work)
