@@ -19,6 +19,26 @@ Face Recognition
 | |Build Status|
 | |Documentation Status|
 
+Author
+------
+
+* **Vitalii** - *Lead Developer and Maintainer*
+
+This project is based on the original work by Adam Geitgey and has been enhanced and maintained by Vitalii.
+
+Contributors
+-----------
+
+* **Adam Geitgey** - *Original Creator* - <ageitgey@gmail.com>
+* **Davis King** (@nulhom) - *dlib Creator* - For creating dlib and providing the trained facial feature detection and face encoding models
+* **Python Data Science Community** - For numpy, scipy, scikit-image, pillow, and other essential libraries
+* **Cookiecutter Team** - For the audreyr/cookiecutter-pypackage project template
+
+License
+-------
+
+This project is licensed under the MIT License - see the `LICENSE <LICENSE>`_ file for details.
+
 Features
 --------
 
@@ -455,26 +475,13 @@ Issue: ``TypeError: imread() got an unexpected keyword argument 'mode'``
 Solution: The version of ``scipy`` you have installed is too old. You
 need version 0.17 or newer. Upgrade ``scipy``.
 
-Thanks
-------
+Acknowledgments
+---------------
 
--  Many, many thanks to `Davis King <https://github.com/davisking>`__
-   (`@nulhom <https://twitter.com/nulhom>`__)
-   for creating dlib and for providing the trained facial feature
-   detection and face encoding models
-   used in this library. For more information on the ResNet that powers
-   the face encodings, check out
-   his `blog
-   post <http://blog.dlib.net/2017/02/high-quality-face-recognition-with-deep.html>`__.
--  Thanks to everyone who works on all the awesome Python data science
-   libraries like numpy, scipy, scikit-image,
-   pillow, etc, etc that makes this kind of stuff so easy and fun in
-   Python.
--  Thanks to `Cookiecutter <https://github.com/audreyr/cookiecutter>`__
-   and the
-   `audreyr/cookiecutter-pypackage <https://github.com/audreyr/cookiecutter-pypackage>`__
-   project template
-   for making Python project packaging way more tolerable.
+-  **Adam Geitgey** - For creating the original face_recognition library and establishing the foundation for this project
+-  **Davis King** (`@nulhom <https://twitter.com/nulhom>`__) - For creating dlib and providing the trained facial feature detection and face encoding models used in this library. For more information on the ResNet that powers the face encodings, check out his `blog post <http://blog.dlib.net/2017/02/high-quality-face-recognition-with-deep.html>`__.
+-  **Python Data Science Community** - For developing and maintaining the essential libraries like numpy, scipy, scikit-image, pillow, and others that make this kind of work possible and enjoyable in Python.
+-  **Cookiecutter Team** - For the audreyr/cookiecutter-pypackage project template that makes Python project packaging much more manageable.
 
 .. |PyPI| image:: https://img.shields.io/pypi/v/face_recognition.svg
    :target: https://pypi.python.org/pypi/face_recognition
