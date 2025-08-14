@@ -17,7 +17,7 @@ Types of Contributions
 Report Bugs
 ~~~~~~~~~~~
 
-Report bugs at https://github.com/vitalii/face_recognition/issues.
+Report bugs at https://github.com/Vitalii0x/face_recognition/issues.
 
 If you are reporting a bug, please include:
 
@@ -28,7 +28,7 @@ If you are reporting a bug, please include:
 Submit Feedback
 ~~~~~~~~~~~~~~~
 
-The best way to send feedback is to file an issue at https://github.com/vitalii/face_recognition/issues.
+The best way to send feedback is to file an issue at https://github.com/Vitalii0x/face_recognition/issues.
 
 If you are proposing a feature:
 
