@@ -7,6 +7,8 @@ Contributing
 Contributions are welcome, and they are greatly appreciated! Every
 little bit helps, and credit will always be given.
 
+This project is currently maintained by **Vitalii** and is based on the original work by Adam Geitgey.
+
 You can contribute in many ways:
 
 Types of Contributions
@@ -15,7 +17,7 @@ Types of Contributions
 Report Bugs
 ~~~~~~~~~~~
 
-Report bugs at https://github.com/ageitgey/face_recognition/issues.
+Report bugs at https://github.com/Vitalii0x/face_recognition/issues.
 
 If you are reporting a bug, please include:
 
@@ -26,7 +28,7 @@ If you are reporting a bug, please include:
 Submit Feedback
 ~~~~~~~~~~~~~~~
 
-The best way to send feedback is to file an issue at https://github.com/ageitgey/face_recognition/issues.
+The best way to send feedback is to file an issue at https://github.com/Vitalii0x/face_recognition/issues.
 
 If you are proposing a feature:
 
@@ -83,7 +85,7 @@ Before you submit a pull request, check that it meets these guidelines:
    your new functionality into a function with a docstring, and add the
    feature to the list in README.rst.
 3. The pull request should work for Python 2.7, 3.5, 3.6, 3.7 and 3.8, and for PyPy. Check
-   https://travis-ci.org/ageitgey/face_recognition/pull_requests
+   https://travis-ci.org/vitalii/face_recognition/pull_requests
    and make sure that the tests pass for all supported Python versions.
 
 Tips

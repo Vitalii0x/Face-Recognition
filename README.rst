@@ -16,14 +16,47 @@ Face Recognition
 | you do face recognition on a folder of images from the command line!
 
 | |PyPI|
-| |Build Status|
 | |Documentation Status|
+
+Author
+------
+
+* **Vitalii** - *Lead Developer and Maintainer*
+
+This project is based on the original work by Adam Geitgey and has been enhanced and maintained by Vitalii.
+
+Contributors
+-----------
+
+* **Adam Geitgey** - *Original Creator* 
+* **Davis King** (@nulhom) - *dlib Creator* - For creating dlib and providing the trained facial feature detection and face encoding models
+* **Python Data Science Community** - For numpy, scipy, scikit-image, pillow, and other essential libraries
+* **Cookiecutter Team** - For the audreyr/cookiecutter-pypackage project template
+
+License
+-------
+
+This project is licensed under the MIT License - see the `LICENSE <LICENSE>`_ file for details.
 
 Features
 --------
 
 Find faces in pictures
 ^^^^^^^^^^^^^^^^^^^^^^
+
+---
+
+https://github.com/user-attachments/assets/ead8ec44-760e-49be-b046-2e99da11111d
+
+https://github.com/user-attachments/assets/0f9ee99f-0707-45fb-99e1-364270467967
+
+https://github.com/user-attachments/assets/f97bb6bc-6c26-43c1-a5f7-4197fe3d05aa
+
+https://github.com/user-attachments/assets/01efc5f3-2f1e-45c0-b33d-8d7064435e3f
+
+https://github.com/user-attachments/assets/b7547432-2334-4c66-8438-b7097ebc9444
+
+https://github.com/user-attachments/assets/8f610799-7d1b-49df-b85c-98d4c2a7ffc2
 
 Find all the faces that appear in a picture:
 
@@ -52,7 +85,7 @@ chin.
 | Finding facial features is super useful for lots of important stuff.
   But you can also use for really stupid stuff
 | like applying `digital
-  make-up <https://github.com/ageitgey/face_recognition/blob/master/examples/digital_makeup.py>`__
+  make-up <https://github.com/vitalii0x/face_recognition/blob/master/examples/digital_makeup.py>`__
   (think 'Meitu'):
 
 |image5|
@@ -81,7 +114,7 @@ real-time face recognition:
 |image7|
 
 See `this
-example <https://github.com/ageitgey/face_recognition/blob/master/examples/facerec_from_webcam_faster.py>`__
+example <https://github.com/vitalii0x/face_recognition/blob/master/examples/facerec_from_webcam_faster.py>`__
 for the code.
 
 Installation
@@ -263,7 +296,7 @@ Automatically find all the faces in an image
     # face_locations is now an array listing the co-ordinates of each face!
 
 | See `this
-  example <https://github.com/ageitgey/face_recognition/blob/master/examples/find_faces_in_picture.py>`__
+  example <https://github.com/vitalii0x/face_recognition/blob/master/examples/find_faces_in_picture.py>`__
 | to try it out.
 
 You can also opt-in to a somewhat more accurate deep-learning-based face
@@ -284,12 +317,12 @@ detection model.
     # face_locations is now an array listing the co-ordinates of each face!
 
 | See `this
-  example <https://github.com/ageitgey/face_recognition/blob/master/examples/find_faces_in_picture_cnn.py>`__
+  example <https://github.com/vitalii0x/face_recognition/blob/master/examples/find_faces_in_picture_cnn.py>`__
 | to try it out.
 
 | If you have a lot of images and a GPU, you can also
 | `find faces in
-  batches <https://github.com/ageitgey/face_recognition/blob/master/examples/find_faces_in_batches.py>`__.
+  batches <https://github.com/Vitalii0x0x/face_recognition/blob/master/examples/find_faces_in_batches.py>`__.
 
 Automatically locate the facial features of a person in an image
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
@@ -305,7 +338,7 @@ Automatically locate the facial features of a person in an image
     # face_landmarks_list[0]['left_eye'] would be the location and outline of the first person's left eye.
 
 | See `this
-  example <https://github.com/ageitgey/face_recognition/blob/master/examples/find_facial_features_in_picture.py>`__
+  example <https://github.com/Vitalii0x/face_recognition/blob/master/examples/find_facial_features_in_picture.py>`__
 | to try it out.
 
 Recognize faces in images and identify who they are
@@ -333,7 +366,7 @@ Recognize faces in images and identify who they are
         print("It's not a picture of me!")
 
 | See `this
-  example <https://github.com/ageitgey/face_recognition/blob/master/examples/recognize_faces_in_pictures.py>`__
+  example <https://github.com/Vitalii0x/face_recognition/blob/master/examples/recognize_faces_in_pictures.py>`__
 | to try it out.
 
 Python Code Examples
@@ -346,43 +379,43 @@ Face Detection
 ^^^^^^^^^^^^^^
 
 -  `Find faces in a
-   photograph <https://github.com/ageitgey/face_recognition/blob/master/examples/find_faces_in_picture.py>`__
+   photograph <https://github.com/Vitalii0x/face_recognition/blob/master/examples/find_faces_in_picture.py>`__
 -  `Find faces in a photograph (using deep
-   learning) <https://github.com/ageitgey/face_recognition/blob/master/examples/find_faces_in_picture_cnn.py>`__
+   learning) <https://github.com/Vitalii0x/face_recognition/blob/master/examples/find_faces_in_picture_cnn.py>`__
 -  `Find faces in batches of images w/ GPU (using deep
-   learning) <https://github.com/ageitgey/face_recognition/blob/master/examples/find_faces_in_batches.py>`__
+   learning) <https://github.com/Vitalii0x/face_recognition/blob/master/examples/find_faces_in_batches.py>`__
 
 Facial Features
 ^^^^^^^^^^^^^^^
 
 -  `Identify specific facial features in a
-   photograph <https://github.com/ageitgey/face_recognition/blob/master/examples/find_facial_features_in_picture.py>`__
+   photograph <https://github.com/Vitalii0x/face_recognition/blob/master/examples/find_facial_features_in_picture.py>`__
 -  `Apply (horribly ugly) digital
-   make-up <https://github.com/ageitgey/face_recognition/blob/master/examples/digital_makeup.py>`__
+   make-up <https://github.com/Vitalii0x/face_recognition/blob/master/examples/digital_makeup.py>`__
 
 Facial Recognition
 ^^^^^^^^^^^^^^^^^^
 
 -  `Find and recognize unknown faces in a photograph based on
    photographs of known
-   people <https://github.com/ageitgey/face_recognition/blob/master/examples/recognize_faces_in_pictures.py>`__
+   people <https://github.com/Vitalii0x/face_recognition/blob/master/examples/recognize_faces_in_pictures.py>`__
 -  `Compare faces by numeric face distance instead of only True/False
-   matches <https://github.com/ageitgey/face_recognition/blob/master/examples/face_distance.py>`__
+   matches <https://github.com/Vitalii0x/face_recognition/blob/master/examples/face_distance.py>`__
 -  `Recognize faces in live video using your webcam - Simple / Slower
    Version (Requires OpenCV to be
-   installed) <https://github.com/ageitgey/face_recognition/blob/master/examples/facerec_from_webcam.py>`__
+   installed) <https://github.com/Vitalii0x/face_recognition/blob/master/examples/facerec_from_webcam.py>`__
 -  `Recognize faces in live video using your webcam - Faster Version
    (Requires OpenCV to be
-   installed) <https://github.com/ageitgey/face_recognition/blob/master/examples/facerec_from_webcam_faster.py>`__
+   installed) <https://github.com/Vitalii0x/face_recognition/blob/master/examples/facerec_from_webcam_faster.py>`__
 -  `Recognize faces in a video file and write out new video file
    (Requires OpenCV to be
-   installed) <https://github.com/ageitgey/face_recognition/blob/master/examples/facerec_from_video_file.py>`__
+   installed) <https://github.com/Vitalii0x/face_recognition/blob/master/examples/facerec_from_video_file.py>`__
 -  `Recognize faces on a Raspberry Pi w/
-   camera <https://github.com/ageitgey/face_recognition/blob/master/examples/facerec_on_raspberry_pi.py>`__
+   camera <https://github.com/Vitalii0x/face_recognition/blob/master/examples/facerec_on_raspberry_pi.py>`__
 -  `Run a web service to recognize faces via HTTP (Requires Flask to be
-   installed) <https://github.com/ageitgey/face_recognition/blob/master/examples/web_service_example.py>`__
+   installed) <https://github.com/Vitalii0x/face_recognition/blob/master/examples/web_service_example.py>`__
 -  `Recognize faces with a K-nearest neighbors
-   classifier <https://github.com/ageitgey/face_recognition/blob/master/examples/face_recognition_knn.py>`__
+   classifier <https://github.com/Vitalii0x/face_recognition/blob/master/examples/face_recognition_knn.py>`__
 
    .. rubric:: How Face Recognition Works
       :name: how-face-recognition-works
@@ -421,7 +454,7 @@ face\_recognition or running examples.
   is too old and doesn't support that.
 | You'll need to recompile ``dlib`` after `making the code change
   outlined
-  here <https://github.com/ageitgey/face_recognition/issues/11#issuecomment-287398611>`__.
+  here <https://github.com/Vitalii0x/face_recognition/issues/11#issuecomment-287398611>`__.
 
 Issue:
 ``RuntimeError: Unsupported image type, must be 8bit gray or RGB image.``
@@ -429,7 +462,7 @@ when running the webcam examples.
 
 Solution: Your webcam probably isn't set up correctly with OpenCV. `Look
 here for
-more <https://github.com/ageitgey/face_recognition/issues/21#issuecomment-287779524>`__.
+more <https://github.com/Vitalii0x/face_recognition/issues/21#issuecomment-287779524>`__.
 
 Issue: ``MemoryError`` when running ``pip2 install face_recognition``
 
@@ -455,31 +488,18 @@ Issue: ``TypeError: imread() got an unexpected keyword argument 'mode'``
 Solution: The version of ``scipy`` you have installed is too old. You
 need version 0.17 or newer. Upgrade ``scipy``.
 
-Thanks
-------
+Acknowledgments
+---------------
 
--  Many, many thanks to `Davis King <https://github.com/davisking>`__
-   (`@nulhom <https://twitter.com/nulhom>`__)
-   for creating dlib and for providing the trained facial feature
-   detection and face encoding models
-   used in this library. For more information on the ResNet that powers
-   the face encodings, check out
-   his `blog
-   post <http://blog.dlib.net/2017/02/high-quality-face-recognition-with-deep.html>`__.
--  Thanks to everyone who works on all the awesome Python data science
-   libraries like numpy, scipy, scikit-image,
-   pillow, etc, etc that makes this kind of stuff so easy and fun in
-   Python.
--  Thanks to `Cookiecutter <https://github.com/audreyr/cookiecutter>`__
-   and the
-   `audreyr/cookiecutter-pypackage <https://github.com/audreyr/cookiecutter-pypackage>`__
-   project template
-   for making Python project packaging way more tolerable.
+-  **Adam Geitgey** - For creating the original face_recognition library and establishing the foundation for this project
+-  **Davis King** (`@nulhom <https://twitter.com/nulhom>`__) - For creating dlib and providing the trained facial feature detection and face encoding models used in this library. For more information on the ResNet that powers the face encodings, check out his `blog post <http://blog.dlib.net/2017/02/high-quality-face-recognition-with-deep.html>`__.
+-  **Python Data Science Community** - For developing and maintaining the essential libraries like numpy, scipy, scikit-image, pillow, and others that make this kind of work possible and enjoyable in Python.
+-  **Cookiecutter Team** - For the audreyr/cookiecutter-pypackage project template that makes Python project packaging much more manageable.
 
 .. |PyPI| image:: https://img.shields.io/pypi/v/face_recognition.svg
    :target: https://pypi.python.org/pypi/face_recognition
-.. |Build Status| image:: https://travis-ci.org/ageitgey/face_recognition.svg?branch=master
-   :target: https://travis-ci.org/ageitgey/face_recognition
+.. |Build Status| image:: https://travis-ci.org/Vitalii0x/face_recognition.svg?branch=master
+   :target: https://travis-ci.org/Vitalii0x/face_recognition
 .. |Documentation Status| image:: https://readthedocs.org/projects/face-recognition/badge/?version=latest
    :target: http://face-recognition.readthedocs.io/en/latest/?badge=latest
 .. |image3| image:: https://cloud.githubusercontent.com/assets/896692/23625227/42c65360-025d-11e7-94ea-b12f28cb34b4.png
