@@ -2,7 +2,12 @@
 Authors
 =======
 
-* Adam Geitgey <ageitgey@gmail.com>
+* **Vitalii** - *Lead Developer and Maintainer*
+
+Original Creator
+---------------
+
+* Adam Geitgey - *Original Creator*
 
 Thanks
 ------
