@@ -16,7 +16,6 @@ Face Recognition
 | you do face recognition on a folder of images from the command line!
 
 | |PyPI|
-| |Build Status|
 | |Documentation Status|
 
 Author
@@ -29,7 +28,7 @@ This project is based on the original work by Adam Geitgey and has been enhanced
 Contributors
 -----------
 
-* **Adam Geitgey** - *Original Creator* - <ageitgey@gmail.com>
+* **Adam Geitgey** - *Original Creator* 
 * **Davis King** (@nulhom) - *dlib Creator* - For creating dlib and providing the trained facial feature detection and face encoding models
 * **Python Data Science Community** - For numpy, scipy, scikit-image, pillow, and other essential libraries
 * **Cookiecutter Team** - For the audreyr/cookiecutter-pypackage project template
@@ -44,6 +43,20 @@ Features
 
 Find faces in pictures
 ^^^^^^^^^^^^^^^^^^^^^^
+
+---
+
+https://github.com/user-attachments/assets/ead8ec44-760e-49be-b046-2e99da11111d
+
+https://github.com/user-attachments/assets/0f9ee99f-0707-45fb-99e1-364270467967
+
+https://github.com/user-attachments/assets/f97bb6bc-6c26-43c1-a5f7-4197fe3d05aa
+
+https://github.com/user-attachments/assets/01efc5f3-2f1e-45c0-b33d-8d7064435e3f
+
+https://github.com/user-attachments/assets/b7547432-2334-4c66-8438-b7097ebc9444
+
+https://github.com/user-attachments/assets/8f610799-7d1b-49df-b85c-98d4c2a7ffc2
 
 Find all the faces that appear in a picture:
 
